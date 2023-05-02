@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.AddProject">
+  <grid id="27dc6" binding="basePanel" custom-create="true" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="500"/>
+    </constraints>
+    <properties>
+      <font name="Courier New" size="14" style="2"/>
+      <minimumSize width="400" height="500"/>
+      <opaque value="false"/>
+      <preferredSize width="600" height="400"/>
+    </properties>
+    <border type="none" title="Add Project"/>
+    <children>
+      <component id="9e778" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <text value="Name of Project"/>
+        </properties>
+      </component>
+      <component id="eda04" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <text value="Agent"/>
+        </properties>
+      </component>
+      <component id="64fcf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <text value="Starting Date"/>
+        </properties>
+      </component>
+      <component id="bc619" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <text value="Finishing Date"/>
+        </properties>
+      </component>
+      <component id="eaf3" class="javax.swing.JButton" binding="addproject">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-609350"/>
+          <font name="Courier New" size="14" style="2"/>
+          <text value="Add Project"/>
+        </properties>
+      </component>
+      <component id="9d5b8" class="javax.swing.JTextField" binding="name">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-609350"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-6479834"/>
+        </properties>
+      </component>
+      <component id="f607" class="org.jdesktop.swingx.JXDatePicker" binding="start">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-609350"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-6479834"/>
+        </properties>
+      </component>
+      <component id="bb209" class="org.jdesktop.swingx.JXDatePicker" binding="stop">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-609350"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-6479834"/>
+        </properties>
+      </component>
+      <component id="8e463" class="javax.swing.JLabel" binding="agent">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-6479834"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9d331" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <text value="Country"/>
+        </properties>
+      </component>
+      <component id="2bed9" class="javax.swing.JTextField" binding="country">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-609350"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-6479834"/>
+        </properties>
+      </component>
+      <component id="48b" class="javax.swing.JButton" binding="back">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <hideActionText value="false"/>
+          <icon value="icons/icons8-go-back-16.png"/>
+          <opaque value="false"/>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="d1007" class="javax.swing.JLabel" binding="distancee">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <text value="Distance"/>
+        </properties>
+      </component>
+      <component id="ab927" class="javax.swing.JTextField" binding="distance">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-609350"/>
+          <font name="Courier New" size="12" style="2"/>
+          <foreground color="-6479834"/>
+        </properties>
+      </component>
+      <component id="b744" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/strategy.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="483c9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <text value="Hotel"/>
+        </properties>
+      </component>
+      <component id="2386d" class="javax.swing.JTextField" binding="hotel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-609350"/>
+          <font name="Consolas" size="14" style="2"/>
+          <foreground color="-6479834"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

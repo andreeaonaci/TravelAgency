@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.MainViewAgent">
+  <grid id="27dc6" binding="basePanel" custom-create="true" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <font name="Courier New" size="14" style="2"/>
+      <foreground color="-15065157"/>
+      <preferredSize width="600" height="300"/>
+    </properties>
+    <border type="none" title="Main View Agent"/>
+    <children>
+      <component id="1294b" class="javax.swing.JButton" binding="addproject">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12669249"/>
+          <enabled value="true"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-15065157"/>
+          <opaque value="true"/>
+          <text value="Add Project"/>
+        </properties>
+      </component>
+      <vspacer id="46d26">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="ebb85" class="javax.swing.JButton" binding="log_out">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12669249"/>
+          <enabled value="true"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-15065157"/>
+          <icon value="icons/icons8-logout-16.png"/>
+          <opaque value="true"/>
+          <text value="Log Out"/>
+        </properties>
+      </component>
+      <component id="6142f" class="javax.swing.JButton" binding="see_feedback">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12669249"/>
+          <enabled value="true"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-15065157"/>
+          <opaque value="true"/>
+          <text value="See Feedbacks"/>
+        </properties>
+      </component>
+      <component id="b012f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-15065157"/>
+          <text value="Hello, "/>
+        </properties>
+      </component>
+      <component id="727f3" class="javax.swing.JLabel" binding="name_of_agent">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-15065157"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5e45a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/icons8-summer-landscape-96.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="68fd4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/icons8-world-map-continents-96.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f8e54" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/icons8-hot-air-balloon-96.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

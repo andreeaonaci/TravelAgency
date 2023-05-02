@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="postgresql-42.5.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/postgresql-42.5.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/swingx-action-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/swingx-autocomplete-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/swingx-common-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/swingx-core-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/swingx-graphics-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/swingx-painters-1.7.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/jar_files/swingx-plaf-1.7.2.jar!/" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.4.1/jar_files" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../Program Files/Java/jdk-17.0.4.1/jar_files" recursive="false" />
+  </library>
+</component>

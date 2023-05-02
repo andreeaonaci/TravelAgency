@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.Make_Reservation">
+  <grid id="27dc6" binding="basePanel" custom-create="true" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4130134"/>
+      <font name="Courier New" size="14" style="2"/>
+      <foreground color="-16028918"/>
+    </properties>
+    <border type="none" title="Make Reservation"/>
+    <children>
+      <component id="e1922" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-16028918"/>
+          <text value="Client"/>
+        </properties>
+      </component>
+      <component id="b53e9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-16028918"/>
+          <text value="Project"/>
+        </properties>
+      </component>
+      <component id="6310e" class="javax.swing.JComboBox" binding="projects">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4130134"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-16028918"/>
+        </properties>
+      </component>
+      <component id="cdaa6" class="javax.swing.JButton" binding="next">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4130134"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-16028918"/>
+          <text value="Next"/>
+        </properties>
+      </component>
+      <component id="3d1ac" class="javax.swing.JButton" binding="back">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4130134"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-16028918"/>
+          <text value="Back to Main View"/>
+        </properties>
+      </component>
+      <component id="cfd70" class="javax.swing.JLabel" binding="client">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4130134"/>
+          <font name="Courier New" size="14" style="2"/>
+          <foreground color="-16028918"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d03d1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/icons8-reservation-64.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e2a4b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="icons/icons8-beach-48.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
